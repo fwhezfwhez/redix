@@ -10,7 +10,7 @@ redix 是解决单点redis切腾讯云redis集群的迁移工具，使用前须�
 
 3. 迁移周期受缓存周期影响，如果不需要保障强一致，那么可以自行决定迁移周期。
 
-4. redix只解决golang应用的redis迁移。
+4. redix只解决golang应用的redis迁移,如果是其他语言，请根据redix的算法自行设计。
 
 
 ## 作用
